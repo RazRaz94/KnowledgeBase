@@ -701,6 +701,13 @@ legend {
 
 /**** Notes Article *******/
 
+.article-list::before {
+  content: attr(data-title);
+  display: block;
+  padding-bottom: 0.2rem;
+  font: bold 14px Tahoma, sans-serif;
+}
+
 .toc {
   top: 20px;
   border: 1px solid #ccc;
