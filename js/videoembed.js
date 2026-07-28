@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    document.querySelectorAll(".video-link").forEach(link => {
+        link.title = "Opens video player";
+    });
+    
     const modal = document.createElement("div");
 
     modal.className = "video-modal";
